@@ -10,8 +10,6 @@ vehicles_us = pd.read_csv('vehicles_us.csv')
 # Elaboración de header
 st.header('Analísis del sector manufacturero de vehículos')
 
-st.write('Esta aplicación aún no es funcional. En construcción.')
-
 
 hist_button_price = st.button(
     'Construir histograma de los precio de autos vendidos')
