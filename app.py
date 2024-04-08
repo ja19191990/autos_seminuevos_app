@@ -4,8 +4,8 @@ import plotly.express as px
 import streamlit as st
 
 # Leer conjuntos de datos en el DataFrame
-vehicles_us = pd.read_csv(
-    r'C:\Users\LENOVO\Desktop\python\data_science\Tripleten\Modulo_5\sprint5\vehicles_us.csv')
+# vehicles_us = pd.read_csv(r'C:\Users\LENOVO\Desktop\python\data_science\Tripleten\Modulo_5\sprint5\vehicles_us.csv')
+vehicles_us = pd.read_csv('vehicles_us.csv')
 
 # Elaboración de header
 st.header('Analísis del sector manufacturero de vehículos')
